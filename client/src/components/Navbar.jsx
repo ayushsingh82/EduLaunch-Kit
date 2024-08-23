@@ -28,7 +28,7 @@ const Navbar = () => {
           <h1 className="font-medium text-xxl text-white">
             <a href="/landing">Join Us</a>
           </h1>
-        </div>
+        </div>ccm
 
         <div className="text-white">
           Wallet
