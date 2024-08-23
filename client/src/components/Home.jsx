@@ -6,23 +6,31 @@ import { TypewriterEffect } from "../components/ui/typewriter-effect";
 export function TypewriterEffectDemo() {
     const words = [
       {
-        text: "Build",
+        text: "Build  ",
         className:"text-white"
       },
       {
-        text: "awesome",
-          className:"text-white"
+        text: "dApp ",
+        className:"text-white"
       },
       {
-        text: "apps",
-          className:"text-white"
+        text: "easily  ",
+        className:"text-white"
+      },
+      {
+        text: "on ",
+             className:"text-white"
+      },
+      {
+        text: "EduChain ",
+             className:"text-white"
       },
       {
         text: "with",
              className:"text-white"
       },
       {
-        text: "Aceternity.",
+        text: "EduLaunch-Kit.",
         className: "text-purple-500",
       },
     ];
@@ -35,7 +43,7 @@ export function TypewriterEffectDemo() {
             Join now
           </button>
           <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-            Signup
+            Features
           </button>
         </div>
       </div>
