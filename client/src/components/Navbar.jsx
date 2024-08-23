@@ -1,4 +1,5 @@
 import React from 'react'
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const gradientStyle = {
   background: "white",
@@ -31,7 +32,7 @@ const Navbar = () => {
         </div>
 
         <div className="text-white">
-          Wallet
+        <ConnectButton/>
         </div>
       </div>
       <div style={gradientStyle} />
