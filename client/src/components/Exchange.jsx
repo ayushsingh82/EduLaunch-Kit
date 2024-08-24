@@ -36,7 +36,7 @@ function Exchange() {
       <div className='bg-white h-[40px] w-[120px] text-[20px]
       flex justify-center items-center border rounded-xl mt-[10px] mr-[10px] bg-blue-300 text-black' >
          <select className='bg-transparent border  border-none outline-none  bg-blue-300 text-black'>
-  <option value="1">Fuji  </option>
+  <option value="1">EDU  </option>
   <option value="2">BNB</option>
   <option value="4">Sepolia</option>
   <option value="5">Arbitrum</option>
@@ -61,13 +61,13 @@ function Exchange() {
       <div className='bg-white h-[40px] w-[120px] text-[20px]
       flex justify-center items-center border rounded-xl mt-[10px] mr-[10px] bg-blue-300 text-black' >
          <select className='bg-transparent border  border-none outline-none bg-blue-300 text-black'>
-  <option value="1">BNB  </option>
-  <option value="2">Fuji</option>
+  <option value="1">Matic  </option>
+  <option value="2">EDU</option>
   <option value="4">Sepolia</option>
   <option value="5">Arbitrum</option>
   <option value="6">Base</option>
   <option value="7">Optimism</option>
-  <option value="8">Matic</option>
+  <option value="8">BNB</option>
 </select>
       </div>
       </div> 

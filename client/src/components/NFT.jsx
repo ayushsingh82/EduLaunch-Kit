@@ -19,6 +19,9 @@ function NextCard({ name, price }) {
                 />
                 <h4 className="font-semibold text-medium text-white mt-[20px]">Name: {name}</h4>
                 <p className="text-tiny uppercase font-medium text-white">Price: {price}</p>
+                <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-4 hover:bg-blue-600">
+                    Mint
+                </button>
             </CardBody>
         </Card>
     );
