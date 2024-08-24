@@ -6,6 +6,7 @@ import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import Exchange from './components/Exchange.jsx'
 import Features from './components/Features.jsx'
+import NFT from './components/NFT.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -47,6 +48,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="/exchange" element={<Exchange />} />
       <Route path="/features" element={<Features />} />
+      <Route path="/nft" element={<NFT />} />
     </Route>
   )
 );

@@ -1,5 +1,5 @@
 import React from 'react'
-// import Wallet from './Wallet'
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useState } from 'react'
 
 function Exchange() {
@@ -75,7 +75,7 @@ function Exchange() {
 
     <div className='mx-auto w-[200px] h-[100px] mt-[20px] bg-transparent
      rounded-2xl flex items-center justify-center'>
-     Wallet
+    <ConnectButton/>
     </div>
 
     <div className='mx-auto mt-[20px] h-[40px] bg:transparent w-[400px]

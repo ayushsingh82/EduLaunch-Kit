@@ -21,7 +21,7 @@ const Navbar = () => {
             <a href="/features">Features</a>
           </h1>
           <h1 className="font-medium text-xxl text-white">
-            <a href="">NFT </a>
+            <a href="/nft">NFT </a>
           </h1>
           <h1 className="font-medium text-xxl text-white">
             <a href="/exchange">Exchange</a>
