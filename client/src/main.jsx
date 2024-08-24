@@ -7,6 +7,7 @@ import Navbar from './components/Navbar.jsx'
 import Exchange from './components/Exchange.jsx'
 import Features from './components/Features.jsx'
 import NFT from './components/NFT.jsx'
+import {NextUIProvider} from '@nextui-org/react'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -58,8 +59,10 @@ createRoot(document.getElementById('root')).render(
   <WagmiProvider config={config}>
   <QueryClientProvider client={queryClient}>
   <RainbowKitProvider>
+  <NextUIProvider>
   <Navbar />
   <RouterProvider router={router} />
+  </NextUIProvider>
   </RainbowKitProvider>
   </QueryClientProvider>
   </WagmiProvider>
