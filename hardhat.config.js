@@ -5,11 +5,11 @@ require("@nomiclabs/hardhat-ethers");
 module.exports = {
   solidity: "0.8.24",
   networks: {
-    arbitrumSepolia: {
+    openCampus: {
       url: "https://rpc.open-campus-codex.gelato.digital",
       chainId: 656476,
-      // Add your private key or mnemonic here if needed
-      // accounts: [`0x${YOUR_PRIVATE_KEY}`]
+      accounts: [vars.get("PRIVATE_KEY")],
+      gasPrice: 20000000000, // Optional: you can set a custom gas price
     },
   },
 };
